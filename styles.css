@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: 'Heebo', sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url('./hero.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 0 5rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 10vh;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+#logo {
+  font-family: 'Lobster', cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  color: rgb(61, 61, 61);
+}
+
+.intro {
+  background-color: #000;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-text {
+  font-family: 'Heebo', sans-serif;
+  color: #ccc;
+  font-size: 3rem;
+}
+
+.slider {
+  background-color: rgb(97, 105, 109);
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  transform: translateY(100%);
+}
+
+.hide {
+  background: #000;
+  overflow: hidden;
+}
+
+.hide span {
+  display: inline-block;
+  transform: translateY(100%);
+}
